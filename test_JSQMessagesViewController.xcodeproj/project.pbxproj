@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71CD860E62EC04E5882AD714 /* Pods_test_JSQMessagesViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFF52CD8D86BD2C50358670 /* Pods_test_JSQMessagesViewController.framework */; };
 		9AA9AA2B1C92633300D3B96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9AA2A1C92633300D3B96F /* AppDelegate.swift */; };
 		9AA9AA2D1C92633300D3B96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9AA2C1C92633300D3B96F /* ViewController.swift */; };
 		9AA9AA301C92633300D3B96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA9AA2E1C92633300D3B96F /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		9AA9AA351C92633300D3B96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA9AA331C92633300D3B96F /* LaunchScreen.storyboard */; };
 		9AA9AA401C92633300D3B96F /* test_JSQMessagesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9AA3F1C92633300D3B96F /* test_JSQMessagesViewControllerTests.swift */; };
 		9AA9AA4B1C92633300D3B96F /* test_JSQMessagesViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9AA4A1C92633300D3B96F /* test_JSQMessagesViewControllerUITests.swift */; };
+		9AA9AA591C9267ED00D3B96F /* sender.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9AA9AA581C9267ED00D3B96F /* sender.JPG */; };
+		9AA9AA5B1C92683A00D3B96F /* responder.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA9AA5A1C92683A00D3B96F /* responder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072825E2BA2480E6E8FE1C07 /* Pods-test_JSQMessagesViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_JSQMessagesViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test_JSQMessagesViewController/Pods-test_JSQMessagesViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		3EFF52CD8D86BD2C50358670 /* Pods_test_JSQMessagesViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_JSQMessagesViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81990AEEF5A982E62F46EA0E /* Pods-test_JSQMessagesViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_JSQMessagesViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-test_JSQMessagesViewController/Pods-test_JSQMessagesViewController.release.xcconfig"; sourceTree = "<group>"; };
 		9AA9AA271C92633300D3B96F /* test_JSQMessagesViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_JSQMessagesViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA9AA2A1C92633300D3B96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AA9AA2C1C92633300D3B96F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		9AA9AA461C92633300D3B96F /* test_JSQMessagesViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_JSQMessagesViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA9AA4A1C92633300D3B96F /* test_JSQMessagesViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_JSQMessagesViewControllerUITests.swift; sourceTree = "<group>"; };
 		9AA9AA4C1C92633300D3B96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA9AA581C9267ED00D3B96F /* sender.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sender.JPG; sourceTree = "<group>"; };
+		9AA9AA5A1C92683A00D3B96F /* responder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = responder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CD860E62EC04E5882AD714 /* Pods_test_JSQMessagesViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047CFE66D51B8CA88089AE81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				072825E2BA2480E6E8FE1C07 /* Pods-test_JSQMessagesViewController.debug.xcconfig */,
+				81990AEEF5A982E62F46EA0E /* Pods-test_JSQMessagesViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9AA9AA1E1C92633300D3B96F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +99,8 @@
 				9AA9AA3E1C92633300D3B96F /* test_JSQMessagesViewControllerTests */,
 				9AA9AA491C92633300D3B96F /* test_JSQMessagesViewControllerUITests */,
 				9AA9AA281C92633300D3B96F /* Products */,
+				047CFE66D51B8CA88089AE81 /* Pods */,
+				E06271ABFB5BFEDF0EC7467A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +117,8 @@
 		9AA9AA291C92633300D3B96F /* test_JSQMessagesViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9AA9AA5A1C92683A00D3B96F /* responder.png */,
+				9AA9AA581C9267ED00D3B96F /* sender.JPG */,
 				9AA9AA2A1C92633300D3B96F /* AppDelegate.swift */,
 				9AA9AA2C1C92633300D3B96F /* ViewController.swift */,
 				9AA9AA2E1C92633300D3B96F /* Main.storyboard */,
@@ -125,6 +147,14 @@
 			path = test_JSQMessagesViewControllerUITests;
 			sourceTree = "<group>";
 		};
+		E06271ABFB5BFEDF0EC7467A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EFF52CD8D86BD2C50358670 /* Pods_test_JSQMessagesViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AA9AA4F1C92633300D3B96F /* Build configuration list for PBXNativeTarget "test_JSQMessagesViewController" */;
 			buildPhases = (
+				9334C88CAD5B16EF69DF28F4 /* Check Pods Manifest.lock */,
 				9AA9AA231C92633300D3B96F /* Sources */,
 				9AA9AA241C92633300D3B96F /* Frameworks */,
 				9AA9AA251C92633300D3B96F /* Resources */,
+				69A466C542DE8B036B182949 /* Embed Pods Frameworks */,
+				FE23D1681A703028C5045FDA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA9AA351C92633300D3B96F /* LaunchScreen.storyboard in Resources */,
+				9AA9AA5B1C92683A00D3B96F /* responder.png in Resources */,
 				9AA9AA321C92633300D3B96F /* Assets.xcassets in Resources */,
+				9AA9AA591C9267ED00D3B96F /* sender.JPG in Resources */,
 				9AA9AA301C92633300D3B96F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +288,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69A466C542DE8B036B182949 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test_JSQMessagesViewController/Pods-test_JSQMessagesViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9334C88CAD5B16EF69DF28F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE23D1681A703028C5045FDA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test_JSQMessagesViewController/Pods-test_JSQMessagesViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AA9AA231C92633300D3B96F /* Sources */ = {
@@ -398,6 +481,7 @@
 		};
 		9AA9AA501C92633300D3B96F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072825E2BA2480E6E8FE1C07 /* Pods-test_JSQMessagesViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test_JSQMessagesViewController/Info.plist;
@@ -409,6 +493,7 @@
 		};
 		9AA9AA511C92633300D3B96F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81990AEEF5A982E62F46EA0E /* Pods-test_JSQMessagesViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test_JSQMessagesViewController/Info.plist;
@@ -485,6 +570,7 @@
 				9AA9AA511C92633300D3B96F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AA9AA521C92633300D3B96F /* Build configuration list for PBXNativeTarget "test_JSQMessagesViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +579,7 @@
 				9AA9AA541C92633300D3B96F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AA9AA551C92633300D3B96F /* Build configuration list for PBXNativeTarget "test_JSQMessagesViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +588,7 @@
 				9AA9AA571C92633300D3B96F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
