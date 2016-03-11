@@ -9,7 +9,7 @@
 import UIKit
 import JSQMessagesViewController
 
-class ViewController: JSQMessagesViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
+class ViewController: JSQMessagesViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate,UITextFieldDelegate {
     
     var messages: [JSQMessage]?
     var photoItems : [JSQPhotoMediaItem]?
@@ -51,19 +51,12 @@ class ViewController: JSQMessagesViewController,UIImagePickerControllerDelegate,
         
         //新しいメッセージデータを追加する
         let message = JSQMessage(senderId: senderId, displayName: senderDisplayName, text: text)
-        self.messages?.append(message)
-        
-        //メッセージの送信処理を完了する(画面上にメッセージが表示される)
-        self.finishReceivingMessageAnimated(true)
-        
-        //擬似的に自動でメッセージを受信
-        self.receiveAutoMessage()
+        sendMessage(message)
         
     }
     
     override func didPressAccessoryButton(sender: UIButton!) {
         showAlert()
-        NSLog("\(photoItems?.count)")
     }
     
     
@@ -85,7 +78,7 @@ class ViewController: JSQMessagesViewController,UIImagePickerControllerDelegate,
         alert.addAction(firstAction)
         alert.addAction(secondAction)
         alert.addAction(cancelAction)
-        
+
         //アラートを表示
         presentViewController(alert, animated: true, completion: nil)
     }
@@ -107,13 +100,23 @@ class ViewController: JSQMessagesViewController,UIImagePickerControllerDelegate,
         photoItems?.append(photoItem)
         //新しいメッセージデータを追加する
         let message = JSQMessage(senderId: senderId, displayName: senderDisplayName, media: photoItems![photoItems!.count-1])
+        
+        sendMessage(message)
+    }
+    
+    func sendMessage(message : JSQMessage){
+        //messsageの配列に追加
         self.messages?.append(message)
         
         //メッセージの送信処理を完了する(画面上にメッセージが表示される)
         self.finishReceivingMessageAnimated(true)
         
+        //<--ここにテキストフィールドを消すコードを書く-->//
+         self.finishSendingMessageAnimated(true)
+        
         //擬似的に自動でメッセージを受信
         self.receiveAutoMessage()
+        
     }
     
     
